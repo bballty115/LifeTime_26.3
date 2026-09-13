@@ -1,0 +1,45 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "weapon.*": {
+                "predicates": {
+                    "minecraft:enchantments": [
+                        {
+                            "enchantments": [
+                                "minecraft:bane_of_arthropods",
+                                "minecraft:breach",
+                                "minecraft:density",
+                                "minecraft:efficiency",
+                                "minecraft:fire_aspect",
+                                "minecraft:fortune",
+                                "minecraft:impaling",
+                                "minecraft:knockback",
+                                "minecraft:looting",
+                                "minecraft:loyalty",
+                                "minecraft:luck_of_the_sea",
+                                "minecraft:lure",
+                                "minecraft:lunge",
+                                "minecraft:piercing",
+                                "minecraft:power",
+                                "minecraft:punch",
+                                "minecraft:quick_charge",
+                                "minecraft:riptide",
+                                "minecraft:sharpness",
+                                "minecraft:smite",
+                                "minecraft:sweeping_edge",
+                                "minecraft:unbreaking",
+                                "minecraft:wind_burst"
+                            ],
+                            "levels": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

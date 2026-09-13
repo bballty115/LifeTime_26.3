@@ -1,0 +1,5 @@
+Look for the following reserved keywords in the code and expand as follow
+
+USERNAME[LOWER]: Repeat the line of code for each user in the users.txt file, replacing USERNAME with the respective usernames. If LOWER is appended, convert all letters to lowercase before inserting username.
+TASKID | TASKTITLE | TASKDESCRIPTION | NEWLINE: Repeat the line of code for each task in the tasks.txt file, filling in each part of the task accordingly. Replace any NEWLINE with a newline character
+NUMBEROFTASKS: Replace this with the total number of tasks

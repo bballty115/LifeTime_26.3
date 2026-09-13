@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [" # ", " D ", "OOO"],
+    "key": {
+        "#": ["minecraft:book"],
+        "D": ["minecraft:diamond_block"],
+        "O": ["minecraft:obsidian"]
+    },
+    "result": {
+        "id": "minecraft:enchanting_table",
+        "count": 1
+    }
+}

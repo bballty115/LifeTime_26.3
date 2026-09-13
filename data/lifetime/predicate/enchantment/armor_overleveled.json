@@ -1,0 +1,34 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "armor.*": {
+                "predicates": {
+                    "minecraft:enchantments": [
+                        {
+                            "enchantments": [
+                                "minecraft:blast_protection",
+                                "minecraft:depth_strider",
+                                "minecraft:feather_falling",
+                                "minecraft:fire_protection",
+                                "minecraft:frost_walker",
+                                "minecraft:projectile_protection",
+                                "minecraft:protection",
+                                "minecraft:respiration",
+                                "minecraft:soul_speed",
+                                "minecraft:swift_sneak",
+                                "minecraft:thorns",
+                                "minecraft:unbreaking"
+                            ],
+                            "levels": {
+                                "min": 2,
+                                "max": 5
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
