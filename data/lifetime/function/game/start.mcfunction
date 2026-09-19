@@ -13,8 +13,9 @@ function lifetime:task/init
 
 # Enable required gamerules
 gamerule keep_inventory true
-# TODO: Enable this when testing is done
-#gamerule send_command_feedback true
+
+execute if score #TESTING_MODE const matches 1 run gamerule send_command_feedback true
+execute unless score #TESTING_MODE const matches 1 run gamerule send_command_feedback true
 
 # Start the first session
 function lifetime:session/start

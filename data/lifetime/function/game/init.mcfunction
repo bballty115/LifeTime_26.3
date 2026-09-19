@@ -109,6 +109,9 @@ scoreboard players set #LIFE_GAIN_TASK_COMPLETE_MINUTES const 60
 scoreboard players set 3 const 3
 scoreboard players set 2 const 2
 
+# Testing Mode [1 for Enabled]
+scoreboard players set #TESTING_MODE const 0
+
 ##
 ## Bossbars
 ##
