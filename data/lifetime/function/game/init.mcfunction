@@ -81,8 +81,8 @@ scoreboard players set #TICK_MINUTES const 1200
 scoreboard players set #TICK_SECONDS const 20
 
 # Session length
-scoreboard players set #SESSION_HOURS const 0
-scoreboard players set #SESSION_MINUTES const 35
+scoreboard players set #SESSION_HOURS const 2
+scoreboard players set #SESSION_MINUTES const 0
 scoreboard players set #SESSION_SECONDS const 0
 scoreboard players set #SESSION_TICKS const 0
 
@@ -93,8 +93,8 @@ scoreboard players set #PLAYER_LIFE_SECONDS const 0
 scoreboard players set #PLAYER_LIFE_TICKS const 0
 
 # Task cooldown
-scoreboard players set #TASK_COOLDOWN_MINUTES const 1
-scoreboard players set #TASK_SHORT_COOLDOWN_SECONDS const 3
+scoreboard players set #TASK_COOLDOWN_MINUTES const 5
+scoreboard players set #TASK_SHORT_COOLDOWN_SECONDS const 10
 
 # Min time left in session to schedule a task
 scoreboard players set #TASK_MIN_TIME_TO_SCHEDULE_MINUTES const 20
