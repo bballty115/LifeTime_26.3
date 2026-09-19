@@ -1,129 +1,263 @@
-# Most of this script was generated using chatgpt
-# Credit where credit is due :p
-
 import os
+
+
+GENERATED_MARKER = "# [Generated From Compiler]"
+
 
 def users_to_list(src):
     """
-    Convert a file containing users to a list
+    Convert a file containing users to a list.
 
-    :param src: Source directory for file
+    :param src: Source file
     """
-
-    # Storage for the users list
     users_list = []
 
-    # Open the file for reading
-    with open(src, 'r') as user_file:
-        # For each line in the file
+    with open(src, "r") as user_file:
         for line in user_file:
-            # Append to the list of users
             users_list.append(line.strip())
 
-    # Return the users list
     return users_list
+
 
 def tasks_to_tuple(src):
     """
-    Convert a file containing tasks to a tuple containing a task id, task title and task description
+    Convert a file containing tasks to tuples containing:
+    task id, task title, and task description.
 
-    :param src: Source directory for file
+    Expected format:
+    [TASKID]TASK TITLE: Task description
+
+    Example:
+    [1]GO TO SPACE: Reach Y-level 250
+
+    :param src: Source file
     """
-
-    # Storage for the tasks list
     tasks_list = []
 
-    # Starting task id is 1
-    task_id = 1
-
-    # Open the file for reading
-    with open(src, 'r') as task_file:
-        # For each line in the file
+    with open(src, "r") as task_file:
         for line in task_file:
-            # Split the line into task name and description
-            title, description = line.split(": ")
-            # Append to the task list with the task id as a tuple
-            tasks_list.append((str(task_id), title, description.strip()))
-            # Increment the number of tasks by 1
-            task_id += 1
+            line = line.strip()
 
-    # Return the tasks list
+            # Find the closing bracket for the task ID
+            closing_bracket = line.index("]")
+
+            # Extract the task ID from between [ and ]
+            task_id = line[1:closing_bracket]
+
+            # Everything after ] contains the title and description
+            task_content = line[closing_bracket + 1:]
+
+            title, description = task_content.split(": ", 1)
+
+            tasks_list.append(
+                (task_id, title, description)
+            )
+
     return tasks_list
 
 
+def generate_lines(line, tasks, users, admins):
+    """
+    Generate compiled lines from a compiler directive.
 
-def copy_directory(src, dest, tasks, users):
+    The input line should have already had '#!c ' removed.
     """
-    Recursively copy files and subdirectories from src to dest.
-    
-    :param src: Source directory
-    :param dest: Destination directory
+
+    generated_lines = []
+
+    # ADMINUSERNAME compilation
+    #
+    # This MUST come before USERNAME because
+    # "ADMINUSERNAME" contains the string "USERNAME".
+    if "ADMINUSERNAME" in line:
+        for admin in admins:
+            generated_line = line
+
+            generated_line = generated_line.replace(
+                "ADMINUSERNAMELOWER",
+                admin.lower()
+            )
+
+            generated_line = generated_line.replace(
+                "ADMINUSERNAME",
+                admin
+            )
+
+            generated_lines.append(generated_line)
+
+    # USERNAME compilation
+    elif "USERNAME" in line:
+        for user in users:
+            generated_line = line
+
+            generated_line = generated_line.replace(
+                "USERNAMELOWER",
+                user.lower()
+            )
+
+            generated_line = generated_line.replace(
+                "USERNAME",
+                user
+            )
+
+            generated_lines.append(generated_line)
+
+    # TASK compilation
+    elif "TASKID" in line:
+        for task_id, title, description in tasks:
+            generated_line = line
+
+            generated_line = (
+                generated_line
+                .replace("TASKID", task_id)
+                .replace("TASKTITLE", title)
+                .replace("TASKDESCRIPTION", description)
+                .replace("NEWLINE", "\n")
+            )
+
+            generated_lines.append(generated_line)
+
+    # Number of tasks
+    elif "NUMBEROFTASKS" in line:
+        generated_line = line.replace(
+            "NUMBEROFTASKS",
+            str(len(tasks))
+        )
+
+        generated_lines.append(generated_line)
+
+    # No recognized compiler variable
+    else:
+        generated_lines.append(line)
+
+    return generated_lines
+
+
+def compile_file(file_path, tasks, users, admins):
     """
-    # Create the destination directory if it doesn't exist
-    if not os.path.exists(dest):
-        os.makedirs(dest)
-    
-    # Iterate through the items in the source directory
-    for item in os.listdir(src):
-        s = os.path.join(src, item)  # Source path
-        d = os.path.join(dest, item)  # Destination path
-        
-        if os.path.isdir(s):
-            # If it's a directory, recursively copy it
-            copy_directory(s, d, tasks, users)
+    Compile a single file in place.
+
+    Lines beginning with '#!c ' are compiler directives.
+
+    Previously generated lines are removed before recompiling.
+    """
+
+    # Read the existing file
+    with open(file_path, "r") as source_file:
+        lines = source_file.readlines()
+
+    output_lines = []
+
+    i = 0
+
+    while i < len(lines):
+        line = lines[i]
+
+        # ---------------------------------------------
+        # Skip previously generated lines
+        # ---------------------------------------------
+        if line.rstrip("\r\n") == GENERATED_MARKER:
+            # Skip the marker
+            i += 1
+
+            # Skip the generated line after the marker
+            if i < len(lines):
+                i += 1
+
+            continue
+
+        # ---------------------------------------------
+        # Compile compiler directives
+        # ---------------------------------------------
+        if line.startswith("#!c "):
+            # Keep the original compiler directive and make sure
+            # the generated output starts on a new line
+            if not line.endswith("\n"):
+                line += "\n"
+
+            output_lines.append(line)
+
+            # Remove "#!c " from the beginning
+            compiler_line = line[4:]
+
+            # Make sure it ends in a newline
+            if not compiler_line.endswith("\n"):
+                compiler_line += "\n"
+
+            generated_lines = generate_lines(
+                compiler_line,
+                tasks,
+                users,
+                admins
+            )
+
+            for generated_line in generated_lines:
+                # If NEWLINE generated multiple physical lines,
+                # mark each one individually.
+                physical_lines = generated_line.splitlines(
+                    keepends=True
+                )
+
+                for physical_line in physical_lines:
+                    if not physical_line.endswith("\n"):
+                        physical_line += "\n"
+
+                    output_lines.append(
+                        GENERATED_MARKER + "\n"
+                    )
+
+                    output_lines.append(
+                        physical_line
+                    )
+
+        # ---------------------------------------------
+        # Normal line
+        # ---------------------------------------------
         else:
-            # If it's a file, copy it line by line
-            with open(s, 'r') as source_file:
-                with open(d, 'w') as dest_file:
-                    for line in source_file:
-                        # If the line does not end with a newline, add in a newline
-                        if not line.endswith("\n"):
-                            line += "\n"
-                        # If line contains the phrase "USERNAME"
-                        if "USERNAME" in line:
-                            # Create a copy of this line
-                            line_copy = line
-                            # For each username in the users list
-                            for user in users:
-                                # Replace USERNAMELOWER with lowercase variant of username in the line
-                                line = line.replace("USERNAMELOWER", user.lower())
-                                # Replace USERNAME with user in the line
-                                line = line.replace("USERNAME", user)
-                                # Write this line to the destination file
-                                dest_file.write(line)
-                                # Replace the line string with the original copy
-                                line = line_copy
-                        # If line contains the phrase "TASKID"
-                        elif "TASKID" in line:
-                            # Create a copy of this line
-                            line_copy = line
-                            # For each id,title,description in the tasks list
-                            for id,title,description in tasks:
-                                # Replace TASKID, TASKTITLE, TASKDESCRIPTION, NEWLINE accordingly
-                                line = line.replace("TASKID",id).replace("TASKTITLE",title).replace("TASKDESCRIPTION",description).replace("NEWLINE",'\n')
-                                # Write this line to the destination file
-                                dest_file.write(line)
-                                # Replace the line string with the original copy
-                                line = line_copy
-                        # If line contains the phrase "NUMBEROFTASKS"
-                        elif "NUMBEROFTASKS" in line:
-                            # Replace "NUMBEROFTASKS" with the number of tasks in the tasks list
-                            line = line.replace("NUMBEROFTASKS", str(len(tasks)))
-                            # Write to the destination file
-                            dest_file.write(line)
-                        # Otherwise, copy the line as normal
-                        else:
-                            dest_file.write(line)
+            output_lines.append(line)
+
+        i += 1
+
+    # Rewrite the file with compiled contents
+    with open(file_path, "w") as dest_file:
+        dest_file.writelines(output_lines)
+
+
+def compile_directory(directory, tasks, users, admins):
+    """
+    Recursively compile all files inside a directory.
+    """
+
+    for root, dirs, files in os.walk(directory):
+        for filename in files:
+            file_path = os.path.join(root, filename)
+
+            compile_file(
+                file_path,
+                tasks,
+                users,
+                admins
+            )
+
 
 if __name__ == "__main__":
-    # Specify the root directory to copy
-    root_dir = "./function_template"
-    # Specify the destination directory
-    dest_dir = "./function"
-    # Specify the file containing the tasks
-    task_file = "./tasks.txt"
-    # Specify the file containing the users
-    users_file = "./users.txt"
+    # Directory containing files to compile
+    function_dir = "./function"
 
-    copy_directory(root_dir, dest_dir, tasks_to_tuple(task_file), users_to_list(users_file))
-    print(f"Copied {root_dir} to {dest_dir} successfully.")
+    # Compiler data
+    task_file = "./tasks.txt"
+    users_file = "./users.txt"
+    admin_file = "./admin.txt"
+
+    tasks = tasks_to_tuple(task_file)
+    users = users_to_list(users_file)
+    admins = users_to_list(admin_file)
+
+    compile_directory(
+        function_dir,
+        tasks,
+        users,
+        admins
+    )
+
+    print(f"Compiled {function_dir} successfully.")

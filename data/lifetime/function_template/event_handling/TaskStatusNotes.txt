@@ -1,8 +1,0 @@
-The following are the codes for task statuses (To make my life easier and to not have to add 5 different variables)
-0 = Yet to fail or succeed a task
-1 = Prompted to fail a task
-2 = In the process of announcing fail for task
-3 = Announced as failed the task and has failed the task
-4 = Completed the task and in the process of announcing it
-5 = Completed the task and has all resources to move forward
-6 = Completed the task and has selected a player to lose time

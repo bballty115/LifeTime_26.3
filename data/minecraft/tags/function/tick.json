@@ -1,3 +1,3 @@
 {
-    "values": ["lifetime:event_handling/handle_tick"]
+    "values": ["lifetime:game/tick"]
 }
