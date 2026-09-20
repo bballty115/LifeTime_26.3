@@ -30,7 +30,23 @@ scoreboard objectives add AdminHelp trigger
 # [Generated From Compiler]
 scoreboard objectives add LoseTime_bballty115 trigger
 # [Generated From Compiler]
-scoreboard objectives add LoseTime_Hungus trigger
+scoreboard objectives add LoseTime_Puzzle_12 trigger
+# [Generated From Compiler]
+scoreboard objectives add LoseTime_Jbloxx trigger
+# [Generated From Compiler]
+scoreboard objectives add LoseTime_heckyeahbirds trigger
+# [Generated From Compiler]
+scoreboard objectives add LoseTime_monobinoculus trigger
+# [Generated From Compiler]
+scoreboard objectives add LoseTime_SilverRH trigger
+# [Generated From Compiler]
+scoreboard objectives add LoseTime_Sakura_Kitty trigger
+# [Generated From Compiler]
+scoreboard objectives add LoseTime_Etcuniversal1 trigger
+# [Generated From Compiler]
+scoreboard objectives add LoseTime_Firefei trigger
+# [Generated From Compiler]
+scoreboard objectives add LoseTime_Crazy_Crafter_12 trigger
 
 ##
 ## Non-Trigger Scoreboards
@@ -125,7 +141,23 @@ bossbar set session_timer color purple
 # [Generated From Compiler]
 bossbar add lifetime_bballty115 "Lifetime Remaining"
 # [Generated From Compiler]
-bossbar add lifetime_hungus "Lifetime Remaining"
+bossbar add lifetime_puzzle_12 "Lifetime Remaining"
+# [Generated From Compiler]
+bossbar add lifetime_jbloxx "Lifetime Remaining"
+# [Generated From Compiler]
+bossbar add lifetime_heckyeahbirds "Lifetime Remaining"
+# [Generated From Compiler]
+bossbar add lifetime_monobinoculus "Lifetime Remaining"
+# [Generated From Compiler]
+bossbar add lifetime_silverrh "Lifetime Remaining"
+# [Generated From Compiler]
+bossbar add lifetime_sakura_kitty "Lifetime Remaining"
+# [Generated From Compiler]
+bossbar add lifetime_etcuniversal1 "Lifetime Remaining"
+# [Generated From Compiler]
+bossbar add lifetime_firefei "Lifetime Remaining"
+# [Generated From Compiler]
+bossbar add lifetime_crazy_crafter_12 "Lifetime Remaining"
 
 ##
 ## Teams

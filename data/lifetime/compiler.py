@@ -12,7 +12,7 @@ def users_to_list(src):
     """
     users_list = []
 
-    with open(src, "r") as user_file:
+    with open(src, "r", encoding="utf-8") as user_file:
         for line in user_file:
             users_list.append(line.strip())
 
@@ -34,7 +34,7 @@ def tasks_to_tuple(src):
     """
     tasks_list = []
 
-    with open(src, "r") as task_file:
+    with open(src, "r", encoding="utf-8") as task_file:
         for line in task_file:
             line = line.strip()
 
@@ -143,7 +143,7 @@ def compile_file(file_path, tasks, users, admins):
     """
 
     # Read the existing file
-    with open(file_path, "r") as source_file:
+    with open(file_path, "r", encoding="utf-8") as source_file:
         lines = source_file.readlines()
 
     output_lines = []
@@ -219,7 +219,7 @@ def compile_file(file_path, tasks, users, admins):
         i += 1
 
     # Rewrite the file with compiled contents
-    with open(file_path, "w") as dest_file:
+    with open(file_path, "w", encoding="utf-8") as dest_file:
         dest_file.writelines(output_lines)
 
 

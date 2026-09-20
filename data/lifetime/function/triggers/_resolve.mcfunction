@@ -47,7 +47,23 @@ function lifetime:triggers/task/undo/update_permissions
 # [Generated From Compiler]
 execute as @a[scores={LoseTime_bballty115=1}] run function lifetime:triggers/lose_time/handler
 # [Generated From Compiler]
-execute as @a[scores={LoseTime_Hungus=1}] run function lifetime:triggers/lose_time/handler
+execute as @a[scores={LoseTime_Puzzle_12=1}] run function lifetime:triggers/lose_time/handler
+# [Generated From Compiler]
+execute as @a[scores={LoseTime_Jbloxx=1}] run function lifetime:triggers/lose_time/handler
+# [Generated From Compiler]
+execute as @a[scores={LoseTime_heckyeahbirds=1}] run function lifetime:triggers/lose_time/handler
+# [Generated From Compiler]
+execute as @a[scores={LoseTime_monobinoculus=1}] run function lifetime:triggers/lose_time/handler
+# [Generated From Compiler]
+execute as @a[scores={LoseTime_SilverRH=1}] run function lifetime:triggers/lose_time/handler
+# [Generated From Compiler]
+execute as @a[scores={LoseTime_Sakura_Kitty=1}] run function lifetime:triggers/lose_time/handler
+# [Generated From Compiler]
+execute as @a[scores={LoseTime_Etcuniversal1=1}] run function lifetime:triggers/lose_time/handler
+# [Generated From Compiler]
+execute as @a[scores={LoseTime_Firefei=1}] run function lifetime:triggers/lose_time/handler
+# [Generated From Compiler]
+execute as @a[scores={LoseTime_Crazy_Crafter_12=1}] run function lifetime:triggers/lose_time/handler
 function lifetime:triggers/lose_time/update_permissions
 
 # Reroll Task (Vote)

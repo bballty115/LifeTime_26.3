@@ -16,137 +16,199 @@ data modify storage lifetime:data tasks.all.2 set value {name: "RAIL SOMEONE", d
 # [Generated From Compiler]
 data modify storage lifetime:data tasks.all.3 set value {name: "GROUP VOTE", description: "Everyone report to spawn and decide as a group the winner of the task. Must be unanimous."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.4 set value {name: "BUILDING COMPETITION", description: "Everyone has 30 minutes to build the nicest build near the spawn area which will be decided through a vote."}
+data modify storage lifetime:data tasks.all.4 set value {name: "BUILDING COMPETITION", description: "Everyone has 20 minutes to build near the spawn area, and the favorite will be decided through a vote."}
 # [Generated From Compiler]
 data modify storage lifetime:data tasks.all.5 set value {name: "SPOOKY", description: "Jumpscare a player on the server"}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.6 set value {name: "ARMORLESS", description: "No wearing armor or shields until you die. If you do, you fail. Last one standing Wins. If the session ends with multiple survivors, person with least time left wins. If that's a tie, no one wins."}
+data modify storage lifetime:data tasks.all.6 set value {name: "WATER BUCKET GAMBLE", description: "10 minutes to pull off a water bucket clutch. You get one try. The person with the second highest clutch wins. Final announcement for height occurs at the end."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.7 set value {name: "WATER BUCKET GAMBLE", description: "Thirty minutes to pull off a water bucket clutch. Person with the second highest clutch wins. Dying eliminates you from winning. If only one person succeeds they win."}
+data modify storage lifetime:data tasks.all.7 set value {name: "WOLF PACK", description: "Befriend 5 new wolves."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.8 set value {name: "WOLF PACK", description: "Befriend 5 new wolves"}
+data modify storage lifetime:data tasks.all.8 set value {name: "RANDOM ITEM COLLECTOR", description: "Have your entire inventory, minus your hotbar, filled with a full stack of unique stackable blocks / stackable items."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.9 set value {name: "RANDOM BLOCK COLLECTOR", description: "Have your entire inventory, minus your hotbar, filled with a full stack of different blocks."}
+data modify storage lifetime:data tasks.all.9 set value {name: "COMEDY", description: "Make 3 people laugh."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.10 set value {name: "COMEDY", description: "Make 3 people laugh"}
+data modify storage lifetime:data tasks.all.10 set value {name: "GONE FISHIN’", description: "You must fish up 3 enchantment books. If you get a mending book you instantly win."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.11 set value {name: "GONE FISHIN’", description: "You must fish up 5 enchantment books. If you get a mending book you instantly win."}
+data modify storage lifetime:data tasks.all.11 set value {name: "IT'S A TRAP", description: "Get a trap kill on another player. All players may trap regardless of life total."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.12 set value {name: "IT'S A TRAP", description: "Get a trap kill on another player"}
+data modify storage lifetime:data tasks.all.12 set value {name: "PORKY PILGRIMAGE", description: "Ride a pig into spawn."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.13 set value {name: "PORKY PILGRIMAGE", description: "Ride a pig into spawn"}
+data modify storage lifetime:data tasks.all.13 set value {name: "EYES OUT", description: "End Portal will be added into spawn in creative mode and be opened. Whoever gets the “Free the End” achievement wins."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.14 set value {name: "LEVEL BEYOND", description: "Reach level 20. If the session ends, whoever has the highest level wins."}
+data modify storage lifetime:data tasks.all.14 set value {name: "POTION BREWER", description: "Brew 5 different potions with different effects (i.e. no just making the same potion with differing lasting times/splash potions)"}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.15 set value {name: "DEFEAT THE DRAGON", description: "End Portal will be added into spawn in creative mode and be opened. Whoever gets the final blow on the dragon wins."}
+data modify storage lifetime:data tasks.all.15 set value {name: "WARDEN HOARDIN", description: "Spawn in and bring a warden to the surface on your own."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.16 set value {name: "POTION BREWER", description: "Brew 5 different potions with different effects (i.e. no just making the same potion with differing lasting times/splash potions)"}
+data modify storage lifetime:data tasks.all.16 set value {name: "GOOBER DASHING", description: "Tyler’s dream. Win 2 games first lmao."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.17 set value {name: "WARDEN HOARDIN", description: "Spawn in and bring a warden to the surface on your own"}
+data modify storage lifetime:data tasks.all.17 set value {name: "TAG", description: "Everyone must be above ground in the Overworld. Someone is randomized as it. They must punch someone to make them it. Whoever is it after 3 minutes loses. No punch backs allowed. Then someone new is randomized as it. Last person standing wins."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.18 set value {name: "BLAZING 8S", description: "Tyler’s nightmare. Win 5 games first lmao."}
+data modify storage lifetime:data tasks.all.18 set value {name: "PIT JR.", description: "Create a 3x3 pit leading straight from above ground to bedrock to honor the pit."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.19 set value {name: "TAG", description: "Someone is randomized as it. They must punch someone to make them it. Whoever is it after 5 minutes loses. No punch backs allowed. Then someone new is randomized as it. Last person standing wins."}
+data modify storage lifetime:data tasks.all.19 set value {name: "SURPASS THE ROOF", description: "Be the first to reach the nether roof. If someone has already been there then reroll the task."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.20 set value {name: "PIT JR.", description: "Create a 3x3 pit leading straight from above ground to bedrock to honor the pit."}
+data modify storage lifetime:data tasks.all.20 set value {name: "PRETTY LITTLE LIARS", description: "Speak and act only in lies. If you tell the truth you fail. Last one standing wins."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.21 set value {name: "SURPASS THE ROOF", description: "Be the first to reach the nether roof. If someone has already been there then reroll the task."}
+data modify storage lifetime:data tasks.all.21 set value {name: "MURDER!!!", description: "Get 2 player kills on different people! All players are allowed to kill regardless of life total."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.22 set value {name: "PRETTY LITTLE LIARS", description: "Speak and act only in lies. If you tell the truth you fail. Last one standing wins."}
+data modify storage lifetime:data tasks.all.22 set value {name: "TARGET LIFE MINI", description: "Someone random will be decided as target at the start of this task. Anyone can kill them. Whoever kills them becomes the new target. After 25 minutes or at the end of the session whoever is it wins. The target must be above ground in the overworld AT ALL TIMES! Failure to do so is an automatic fail and reroll of who is it."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.23 set value {name: "MURDER!!!", description: "Get 2 player kills on different people!"}
+data modify storage lifetime:data tasks.all.23 set value {name: "AMERICAN SNIPER", description: "Get a player kill with a bow, crossbow, trident, or any other ranged means of attack. All players may kill regardless of life total."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.24 set value {name: "TARGET LIFE MINI", description: "Someone random will be decided as target at the start of this task. Anyone can kill them. Whoever kills them becomes the new target. After an hour or at the end of the session whoever is it wins. The target must be above ground in the overworld AT ALL TIMES! Failure to do so is an automatic fail and reroll of who is it."}
+data modify storage lifetime:data tasks.all.24 set value {name: "WITHER OR NOT", description: "Get a fresh new wither skull from a wither skeleton."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.25 set value {name: "AMERICAN SNIPER", description: "Get a kill with a bow, crossbow, trident, or any other ranged means of attack."}
+data modify storage lifetime:data tasks.all.25 set value {name: "JOEY CHESTNUT", description: "Eat 15 different edible minecraft items."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.26 set value {name: "WITHER OR NOT", description: "Get a fresh new wither skull from a wither skeleton first"}
+data modify storage lifetime:data tasks.all.26 set value {name: "MAKE LOVE NOT WAR", description: "Breed 5 different animals."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.27 set value {name: "JOEY CHESTNUT", description: "Eat 15 different edible minecraft items."}
+data modify storage lifetime:data tasks.all.27 set value {name: "RANDOM 1V1ING", description: "Win against 3 different people in a 1 v 1 challenge you both agree on. First person to win 3 wins it all. If there are not at least 4 people left then reroll."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.28 set value {name: "MAKE LOVE NOT WAR", description: "Breed 5 different animals"}
+data modify storage lifetime:data tasks.all.28 set value {name: "FLY FLY AWAY", description: "Build a flying machine to go from one side of the map to the other."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.29 set value {name: "RANDOM 1V1ING", description: "Win against 3 different people in a 1 v 1 challenge you both agree on. First person to win 3 wins it all. If there are not at least 4 people left then reroll."}
+data modify storage lifetime:data tasks.all.29 set value {name: "LYRICAL LINGUIST", description: "Choose a popular song. Sneak in 3 different lyrics from the song in conversations with 3 different people. If you get called out on the song you fail."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.30 set value {name: "FLY FLY AWAY", description: "Build a flying machine to go from one side of the map to the other."}
+data modify storage lifetime:data tasks.all.30 set value {name: "BUILDING CONNECTIONS", description: "Once you have a base, connect your base to a base of one other player. You cannot connect it to a player you share a base with, and can’t connect to another player’s connection."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.31 set value {name: "CLEAN HANDS", description: "No killing any players or mobs. If you kill any or die you fail this task."}
+data modify storage lifetime:data tasks.all.31 set value {name: "ACHIEVEMENT HUNTER", description: "Get 5 new achievements complete."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.32 set value {name: "LYRICAL LINGUIST", description: "Choose a popular song. Sneak in 3 different lyrics from the song in conversations with 3 different people. If you get called out on the song you fail."}
+data modify storage lifetime:data tasks.all.32 set value {name: "DREAM LUCK", description: "Get a new stack of ender pearls through Piglin Trades or killing endermen."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.33 set value {name: "BUILDING CONNECTIONS", description: "Once you have a base, connect your base to spawn and connect it to a base of one other player. You cannot connect it to a player you share a base with."}
+data modify storage lifetime:data tasks.all.33 set value {name: "FLOWER POWER", description: "Collect 7 different flowers and gift them into someone’s inventory."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.34 set value {name: "ACHIEVEMENT HUNTER", description: "Get 5 new achievements complete."}
+data modify storage lifetime:data tasks.all.34 set value {name: "UNCONTROLLABLE", description: "Make your W your left key, D your forward key, S your right key, and A your back key. Keep those controls as long as you can. If you die with these controls you lose."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.35 set value {name: "DREAM LUCK", description: "Get a stack of ender pearls through Piglin Trades or killing endermen."}
+data modify storage lifetime:data tasks.all.35 set value {name: "KILLER OF THE NIGHT", description: "Kill 25 aggressive mobs first."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.36 set value {name: "FLOWER POWER", description: "Collect 9 different flowers and gift them into someone’s inventory"}
+data modify storage lifetime:data tasks.all.36 set value {name: "ON THE VERGE", description: "Find a way to get yourself to ½ a heart from full health in just one instance of damage (i.e. one tick of damage so suffocating and drowning would not count)"}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.37 set value {name: "UNCONTROLLABLE", description: "Make your W your left key, D your forward key, S your right key, and A your back key. Keep those controls as long as you can. If you die with these controls you lose."}
+data modify storage lifetime:data tasks.all.37 set value {name: "HOLD YOUR BREATH", description: "All players must meet at the same body of water. Everyone will go underwater at the same time. You fail as soon as you come into contact with an air block. If you die underwater you lose."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.38 set value {name: "KILLER OF THE NIGHT", description: "Kill 50 aggressive mobs first"}
+data modify storage lifetime:data tasks.all.38 set value {name: "A HORSE’S JOURNEY", description: "Bring a horse from the overworld to a nether fortress and a bastion."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.39 set value {name: "ON THE VERGE", description: "Find a way to get yourself to ½ a heart in just one instance of damage (i.e. one tick of damage so suffocating and drowning would not count)"}
+data modify storage lifetime:data tasks.all.39 set value {name: "GOING FOR GOLD", description: "Get a full set of gold armor and tools and put them on an armor stand and in item frames."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.40 set value {name: "HOLD YOUR BREATH", description: "All players must meet at a body of water. Everyone will go underwater at the same time. Last one to go above water wins. If you die underwater you lose."}
+data modify storage lifetime:data tasks.all.40 set value {name: "I SEE YOU", description: "Get a spyglass and look at every alive player through it"}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.41 set value {name: "A HORSE’S JOURNEY", description: "Bring a horse from the overworld to a nether fortress and a bastion"}
+data modify storage lifetime:data tasks.all.41 set value {name: "NEW STRIDES", description: "Bring a strider to the overworld"}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.42 set value {name: "GOING FOR GOLD", description: "Get a full set of gold armor and tools and put them on an armor stand and in item frames."}
+data modify storage lifetime:data tasks.all.42 set value {name: "MUSIC MAN", description: "Get a brand new disc (ones you already have do not count) and play it in a jukebox for two other players to hear."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.43 set value {name: "I SEE YOU", description: "Get a spyglass and look at every alive player through it"}
+data modify storage lifetime:data tasks.all.43 set value {name: "BUCKETS O’ PLENTY", description: "Get 4 new buckets each filled with a unique item. (Empty buckets do not count)"}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.44 set value {name: "NEW STRIDES", description: "Bring a strider to the overworld"}
+data modify storage lifetime:data tasks.all.44 set value {name: "MAPPED OUT", description: "Get a map of the entire world within the border and display it at your base"}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.45 set value {name: "MUSIC MAN", description: "Get a brand new disc (ones you already have do not count) and play it in a jukebox for two other players."}
+data modify storage lifetime:data tasks.all.45 set value {name: "STATISTICS BET", description: "If this is the first session reroll and save for a future session. Everyone come to spawn and stand in a circle. A random player will be chosen and get to say a statistic of their choice (any death stat is not allowed). Whoever has the lowest of that fails the challenge. We then continue clockwise to the next player who chooses a new stat. Continue until one player remains. If there is a tie for last place, the player who made the stat choice chooses a new comparison for those in a tie."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.46 set value {name: "BUCKETS O’ PLENTY", description: "Have 4 buckets each filled with a unique item. (Empty buckets do not count)"}
+data modify storage lifetime:data tasks.all.46 set value {name: "BANGER", description: "Create fireworks and shoot them out of a crossbow to kill another player. All players may do this regardless of life total."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.47 set value {name: "MAPPED OUT", description: "Get a map of the entire world within the border and display it at your base"}
+data modify storage lifetime:data tasks.all.47 set value {name: "UNBEELIEVABLE", description: "Find a bee and nametag it Dinnerbone to see it flip upside down. Then do the same to two other mobs of your choice."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.48 set value {name: "STATISTICS BET", description: "If this is the first session reroll and save for a future session. Everyone come to spawn and stand in a circle. A random player will be chosen and get to say a statistic of their choice (any death stat is not allowed). Whoever has the lowest of that fails the challenge. We then continue clockwise to the next player who chooses a new stat. Continue until one player remains. If there is a tie for last place, the player who made the stat choice chooses a new comparison for those in a tie."}
+data modify storage lifetime:data tasks.all.48 set value {name: "GATHER THE ANCIENTS", description: "Find 2 pieces of ancient debris in the nether (you do not need to mine them)"}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.49 set value {name: "BANGER", description: "Create fireworks and shoot them out of a crossbow to kill another player."}
+data modify storage lifetime:data tasks.all.49 set value {name: "GHASTLY BOATS", description: "Get a ghast to get into a boat. (Yes it is possible unless the internet lied to me)"}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.50 set value {name: "UNBEELIEVABLE", description: "Find a bee and nametag it Dinnerbone to see it flip upside down. Then do the same to two other mobs of your choice."}
+data modify storage lifetime:data tasks.all.50 set value {name: "DECONTAMINATION", description: "Find a zombie villager and convert it back to a normal villager."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.51 set value {name: "A SMASHING ACT", description: "go to https://smashurandompicker.web.app/ and get a random smash character. Everyone must then meet at spawn. Everyone will take turns acting as their character and based on player vote whoever gets the best performance wins.  You are allowed one reroll of character but must commit to reroll."}
+data modify storage lifetime:data tasks.all.51 set value {name: "RAINBOW ENJOYER", description: "Build an accurate rainbow (aka doesn’t look like shit)."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.52 set value {name: "GATHER THE ANCIENTS", description: "Find 2 pieces of ancient debris in the nether (you do not need to mine them)"}
+data modify storage lifetime:data tasks.all.52 set value {name: "CAREFUL SPEAKING", description: "You can no longer say the direct name of any minecraft item/block/mob/biome. If you say any, you fail the challenge. No being silent either, if someone talks to you, you must talk back."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.53 set value {name: "GHASTLY BOATS", description: "Get a ghast to get into a boat. (Yes it is possible unless the internet lied to me)"}
+data modify storage lifetime:data tasks.all.53 set value {name: "FOUR CORNERS RACE", description: "Everyone gets 10 minutes to prepare and then meet at spawn. Whoever makes it to each corner of the map first wins!"}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.54 set value {name: "DECONTAMINATION", description: "Find a zombie villager and convert it back to a normal villager."}
+data modify storage lifetime:data tasks.all.54 set value {name: "MINE DIIIIIIIIIIIIAMONDS", description: "Find and mine 8 diamond ore"}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.55 set value {name: "RAINBOW ENJOYER", description: "Build an accurate rainbow (aka doesn’t look like shit)."}
+data modify storage lifetime:data tasks.all.55 set value {name: "LOONEY TUNES MOMENT", description: "Drop a block on top of someone’s head to kill them"}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.56 set value {name: "CAREFUL SPEAKING", description: "You can no longer say the direct name of any minecraft item/block/mob/biome. If you say any, you fail the challenge. No being silent either, if someone talks to you, you must talk back."}
+data modify storage lifetime:data tasks.all.56 set value {name: "TOXIC GAMER", description: "Poison 3 different players through any means."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.57 set value {name: "FOUR CORNERS RACE", description: "Everyone gets 10 minutes to prepare and then meet at spawn. Whoever runs to each corner of the map first wins!"}
+data modify storage lifetime:data tasks.all.57 set value {name: "DRIPPED OUT", description: "Wear a full set of trimmed armor minus helmet"}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.58 set value {name: "MINE DIIIIIIIIIIIIAMONDS", description: "Find and mine 8 diamond ore"}
+data modify storage lifetime:data tasks.all.58 set value {name: "MUST HAVE BEEN THE WIND", description: "Knock someone off at least a 5 block high fall with a wind charge"}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.59 set value {name: "LOONEY TUNES MOMENT", description: "Drop an anvil on top of someone’s head to kill them"}
+data modify storage lifetime:data tasks.all.59 set value {name: "TRIALS AND TRIBULATIONS", description: "Complete 2 trials in a trial chamber in a row without dying"}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.60 set value {name: "TOXIC GAMER", description: "Poison 3 different players through any means."}
+data modify storage lifetime:data tasks.all.60 set value {name: "SAY IT BACK", description: "Choose a phrase, get 3 people to say it without directly telling them too."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.61 set value {name: "DRIPPED OUT", description: "Wear a full set of trimmed armor"}
+data modify storage lifetime:data tasks.all.61 set value {name: "LOW TIER GOD", description: "You should kill yourself now. First one wins."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.62 set value {name: "MUST HAVE BEEN THE WIND", description: "Knock someone off at least a 5 block high fall with a wind charge"}
+data modify storage lifetime:data tasks.all.62 set value {name: "AXE-KILL-LOT-LE", description: "Kill an axolotl with an axe."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.63 set value {name: "TRIALS AND TRIBULATIONS", description: "Complete 2 trials in a trial chamber in a row without dying"}
+data modify storage lifetime:data tasks.all.63 set value {name: "YOU DECIDE", description: "One person at random is chosen, they choose the next task from the current list. Repeats available."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.64 set value {name: "SAY IT BACK", description: "Choose a phrase, get 3 people to say it without directly telling them too."}
+data modify storage lifetime:data tasks.all.64 set value {name: "TO DECIDE", description: "One person at random is chosen, they choose the next task from the current list. Repeats available."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.65 set value {name: "LOW TIER GOD", description: "You should kill yourself now. First one wins."}
+data modify storage lifetime:data tasks.all.65 set value {name: "HEAVY ODDS", description: "Get a new heavy core from trial chambers"}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.66 set value {name: "THE WORST CRIME", description: "Kill a frog"}
+data modify storage lifetime:data tasks.all.66 set value {name: "APOCALYPSE NOW", description: "Someone will be randomly chosen as the first infected. Whoever is infected will now be similar to a red life. Spread the infection to others by killing them. Longest to survive the apocalypse wins. To avoid camping hell, all non-infected must stay above ground and in overworld at all times with direct access to sunlight."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.67 set value {name: "YOU DECIDE", description: "One person at random is chosen, they choose the next task from the current list"}
+data modify storage lifetime:data tasks.all.67 set value {name: "GO TIME", description: "You have two minutes to get to spawn. Afterwards, a random player at spawn is chosen as the winner."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.68 set value {name: "HEAVY ODDS", description: "Get a heavy core from trial chambers"}
+data modify storage lifetime:data tasks.all.68 set value {name: "MECHANISM", description: "Everyone meets at spawn. You have 20 minutes to build a contraption that completes a task. That task is up to you. Vote for your favorite, most votes wins."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.69 set value {name: "APOCALYPSE NOW", description: "Someone will be randomly chosen as the first infected. Whoever is infected will now be similar to a red life. Spread the infection to others by killing them. Longest to survive the apocalypse wins. To avoid camping hell, all non-infected must stay above ground and in overworld at all times."}
+data modify storage lifetime:data tasks.all.69 set value {name: "BOAT RACE JR", description: "Everyone meets up and we have 20 minutes to build a single boat race course, and then we race. Whoever wins the race is the winner."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.70 set value {name: "PARK-OUR", description: "Everyone meets up somewhere in the world and we have 20 minutes to build a single parkour course to reach a block 50 blocks in the air, and then we compete to see who can reach it the fastest. The best time or highest distance wins, everyone gets one attempt."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.71 set value {name: "A-MAZE-ING RACE", description: "Everyone meets up somewhere in the world and we have 20 minutes to build a single maze, and then we compete to see who can reach the end first."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.72 set value {name: "HIGH DIVE", description: "Everyone meets at spawn, and we fill a 1x1 hole with water. We determine a random player order. In order, each player can jump into the water at a higher elevation than the last succeeding player. If you miss, you are out. You can also opt out. Last player left wins! [NOTE: Your jumping point must be 5 BLOCKS AWAY minimum]"}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.73 set value {name: "WOOD WORKING", description: "Get 3 new stacks of any logs!"}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.74 set value {name: "LAST PERSON FLOATING", description: "We have 10 minutes to prepare. Afterwards, we all meet at spawn and build a 7x7 platform 20 blocks up. Once your feet leave the platform, you fail the challenge. You can not directly attack players. You can not directly break the platform."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.75 set value {name: "KRAKATOA", description: "Launch an unsuspecting player with a sulfur geyser."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.76 set value {name: "SULFUR SHOWDOWN", description: "We meet up somewhere in the world and have 20 minutes to build a stadium. Each participating player must place a goal around the edge of the stadium. Your goal must be at least 4 blocks wide and 3 blocks tall. A bouncy/low friction sulfur cube will be placed in the arena. If the cube ends up in your goal you’re out. Last player in wins."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.77 set value {name: "FULL POCKETS", description: "You have 5 minutes to prepare. You can approach another player and guess an item they have in their inventory (armor doesn’t count). If they have the item they are out. If you are wrong you are out. Go until only one remains. [NOTE: You must have 9 unique item slots minimum in your inventory at all times]"}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.78 set value {name: "CHAOS GOLF", description: "Using a sulfur cube, use a non-weapon to transport a sulfur cube to a designated point agreed upon from spawn, whoever uses the least amount of hits to accomplish this wins. No using buckets to transport the sulfur cube."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.79 set value {name: "NO CONTACT", description: "Move an item 50 blocks horizontally without picking it up."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.80 set value {name: "MEAT SKEWER", description: "One shot something with a spear."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.81 set value {name: "COPPER GOLEM ROULETTE", description: "Name your chosen copper golem. We fully fill a copper chest, with the last slot containing a unique item. The golem that grabs that item wins. Sabotage that does not harm the golems is allowed, and no putting items into the copper chest once the roulette begins."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.82 set value {name: "UNEASIER ALLIANCE", description: "Bring a fully grown Happy Ghast back to the nether"}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.83 set value {name: "HOW DID WE GET HERE MINI", description: "Have “Breath of the Nautilus” and “Trial Omen” at the same time"}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.84 set value {name: "THE FLOOR IS LAVA", description: "Starting in one minute, you cannot stand on naturally generated terrain. Last one to fail wins."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.85 set value {name: "MUSICAL CUSHIONS", description: "We all meet up at spawn and set up enough cushions for the remaining players minus one. A spectator streams some sort of music in the discord server, and while it’s playing, players move around the cushions. When the music stops, everyone must find and sit on a cushion. Last player to not be on a cushion fails. Remove one cushion and repeat until one player remains. [Note: Players who have not failed can not actively attack players]"}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.86 set value {name: "PALE GUARDIAN", description: "Bring a guardian to the pale garden."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.87 set value {name: "PALE GUARDIAN", description: "Bring a creaking to the ocean monument."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.88 set value {name: "SULFUR CURLING", description: "We all meet up at spawn and pick a starting point. Everyone will have an attempt to hit a sulfur cube with stone in it as far as possible. Furthest cube wins. Players can’t interfere with the cubes, but cubes can move other cubes. Player order is random."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.89 set value {name: "MUSICAL MAYHEM", description: "Everything you speak must be in song. You fail if you’re called out. You must interact with those who interact with you."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.90 set value {name: "STEVE WOKE UP IN A DREARY OFFICE", description: "You must narrate everything you do. You fail if you’re called out. You must interact with those who interact with you."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.91 set value {name: "THIRD PERSON", description: "You must speak in third person. You must play in third person. Failure to do so means you fail the task. You also fail if you die."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.92 set value {name: "PING", description: "Every minute, you must type something in chat. You are out if you fail to do so. Use the session timer to gauge this."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.93 set value {name: "ADVENTURE AWAITS", description: "Starting now, go to 3 naturally generated structures. You must say when you visit a structure in chat."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.94 set value {name: "CAKE IS A LIE", description: "Make a cake and eat a slice."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.95 set value {name: "TERMINAL VELOCITY", description: "Launch yourself at least 30 blocks in a minecart. You must be in the air for the launch."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.96 set value {name: "SO, NO HEAD?", description: "Shave a snow golem of its head."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.97 set value {name: "BED WARS CRIME", description: "Bed bomb anything to death."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.98 set value {name: "SCAVENGER HUNT", description: "After 2 minutes, everyone announces an item or block in chat. The first player to gather over half of these items wins."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.99 set value {name: "NO HOES?", description: "Break a diamond hoe from full durability."}
+# [Generated From Compiler]
+data modify storage lifetime:data tasks.all.100 set value {name: "TASK 100", description: "[PLEASE WAIT BEFORE STARTING THIS] First player to count from 1 to 100 in global chat wins. If it’s not continuous, you fail. Each number must be a separate message. We agree upon a start time."}
 
 # For all tasks in the dataset, if task is not archived, add to pool
 data modify storage lifetime:data tasks.pool set value []
@@ -290,6 +352,68 @@ execute unless data storage lifetime:data tasks.archived[{id:67}] run data modif
 execute unless data storage lifetime:data tasks.archived[{id:68}] run data modify storage lifetime:data tasks.pool append value {id:68}
 # [Generated From Compiler]
 execute unless data storage lifetime:data tasks.archived[{id:69}] run data modify storage lifetime:data tasks.pool append value {id:69}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:70}] run data modify storage lifetime:data tasks.pool append value {id:70}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:71}] run data modify storage lifetime:data tasks.pool append value {id:71}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:72}] run data modify storage lifetime:data tasks.pool append value {id:72}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:73}] run data modify storage lifetime:data tasks.pool append value {id:73}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:74}] run data modify storage lifetime:data tasks.pool append value {id:74}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:75}] run data modify storage lifetime:data tasks.pool append value {id:75}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:76}] run data modify storage lifetime:data tasks.pool append value {id:76}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:77}] run data modify storage lifetime:data tasks.pool append value {id:77}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:78}] run data modify storage lifetime:data tasks.pool append value {id:78}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:79}] run data modify storage lifetime:data tasks.pool append value {id:79}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:80}] run data modify storage lifetime:data tasks.pool append value {id:80}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:81}] run data modify storage lifetime:data tasks.pool append value {id:81}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:82}] run data modify storage lifetime:data tasks.pool append value {id:82}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:83}] run data modify storage lifetime:data tasks.pool append value {id:83}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:84}] run data modify storage lifetime:data tasks.pool append value {id:84}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:85}] run data modify storage lifetime:data tasks.pool append value {id:85}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:86}] run data modify storage lifetime:data tasks.pool append value {id:86}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:87}] run data modify storage lifetime:data tasks.pool append value {id:87}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:88}] run data modify storage lifetime:data tasks.pool append value {id:88}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:89}] run data modify storage lifetime:data tasks.pool append value {id:89}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:90}] run data modify storage lifetime:data tasks.pool append value {id:90}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:91}] run data modify storage lifetime:data tasks.pool append value {id:91}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:92}] run data modify storage lifetime:data tasks.pool append value {id:92}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:93}] run data modify storage lifetime:data tasks.pool append value {id:93}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:94}] run data modify storage lifetime:data tasks.pool append value {id:94}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:95}] run data modify storage lifetime:data tasks.pool append value {id:95}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:96}] run data modify storage lifetime:data tasks.pool append value {id:96}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:97}] run data modify storage lifetime:data tasks.pool append value {id:97}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:98}] run data modify storage lifetime:data tasks.pool append value {id:98}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:99}] run data modify storage lifetime:data tasks.pool append value {id:99}
+# [Generated From Compiler]
+execute unless data storage lifetime:data tasks.archived[{id:100}] run data modify storage lifetime:data tasks.pool append value {id:100}
 
 # Ensure that any archived tasks are ones that exist in the task pool
 # Ex: A task was removed, but it was previously archived. We now have an archived task with no matching id, which is bad

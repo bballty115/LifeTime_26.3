@@ -23,13 +23,45 @@ function lifetime:task/manager/action/current_complete
 # [Generated From Compiler]
 execute if score @s LoseTime_bballty115 matches 1 run tellraw @a {text:"bballty115 has lost time.", color:"blue"}
 # [Generated From Compiler]
-execute if score @s LoseTime_Hungus matches 1 run tellraw @a {text:"Hungus has lost time.", color:"blue"}
+execute if score @s LoseTime_Puzzle_12 matches 1 run tellraw @a {text:"Puzzle_12 has lost time.", color:"blue"}
+# [Generated From Compiler]
+execute if score @s LoseTime_Jbloxx matches 1 run tellraw @a {text:"Jbloxx has lost time.", color:"blue"}
+# [Generated From Compiler]
+execute if score @s LoseTime_heckyeahbirds matches 1 run tellraw @a {text:"heckyeahbirds has lost time.", color:"blue"}
+# [Generated From Compiler]
+execute if score @s LoseTime_monobinoculus matches 1 run tellraw @a {text:"monobinoculus has lost time.", color:"blue"}
+# [Generated From Compiler]
+execute if score @s LoseTime_SilverRH matches 1 run tellraw @a {text:"SilverRH has lost time.", color:"blue"}
+# [Generated From Compiler]
+execute if score @s LoseTime_Sakura_Kitty matches 1 run tellraw @a {text:"Sakura_Kitty has lost time.", color:"blue"}
+# [Generated From Compiler]
+execute if score @s LoseTime_Etcuniversal1 matches 1 run tellraw @a {text:"Etcuniversal1 has lost time.", color:"blue"}
+# [Generated From Compiler]
+execute if score @s LoseTime_Firefei matches 1 run tellraw @a {text:"Firefei has lost time.", color:"blue"}
+# [Generated From Compiler]
+execute if score @s LoseTime_Crazy_Crafter_12 matches 1 run tellraw @a {text:"Crazy_Crafter_12 has lost time.", color:"blue"}
 
 # Remove time from the indicated player and return
 #!c execute if score @s LoseTime_USERNAME matches 1 run return run scoreboard players operation USERNAME PlayerLifeMinutes -= #LIFE_LOSS_TASK_FAIL_MINUTES const
 # [Generated From Compiler]
 execute if score @s LoseTime_bballty115 matches 1 run return run scoreboard players operation bballty115 PlayerLifeMinutes -= #LIFE_LOSS_TASK_FAIL_MINUTES const
 # [Generated From Compiler]
-execute if score @s LoseTime_Hungus matches 1 run return run scoreboard players operation Hungus PlayerLifeMinutes -= #LIFE_LOSS_TASK_FAIL_MINUTES const
+execute if score @s LoseTime_Puzzle_12 matches 1 run return run scoreboard players operation Puzzle_12 PlayerLifeMinutes -= #LIFE_LOSS_TASK_FAIL_MINUTES const
+# [Generated From Compiler]
+execute if score @s LoseTime_Jbloxx matches 1 run return run scoreboard players operation Jbloxx PlayerLifeMinutes -= #LIFE_LOSS_TASK_FAIL_MINUTES const
+# [Generated From Compiler]
+execute if score @s LoseTime_heckyeahbirds matches 1 run return run scoreboard players operation heckyeahbirds PlayerLifeMinutes -= #LIFE_LOSS_TASK_FAIL_MINUTES const
+# [Generated From Compiler]
+execute if score @s LoseTime_monobinoculus matches 1 run return run scoreboard players operation monobinoculus PlayerLifeMinutes -= #LIFE_LOSS_TASK_FAIL_MINUTES const
+# [Generated From Compiler]
+execute if score @s LoseTime_SilverRH matches 1 run return run scoreboard players operation SilverRH PlayerLifeMinutes -= #LIFE_LOSS_TASK_FAIL_MINUTES const
+# [Generated From Compiler]
+execute if score @s LoseTime_Sakura_Kitty matches 1 run return run scoreboard players operation Sakura_Kitty PlayerLifeMinutes -= #LIFE_LOSS_TASK_FAIL_MINUTES const
+# [Generated From Compiler]
+execute if score @s LoseTime_Etcuniversal1 matches 1 run return run scoreboard players operation Etcuniversal1 PlayerLifeMinutes -= #LIFE_LOSS_TASK_FAIL_MINUTES const
+# [Generated From Compiler]
+execute if score @s LoseTime_Firefei matches 1 run return run scoreboard players operation Firefei PlayerLifeMinutes -= #LIFE_LOSS_TASK_FAIL_MINUTES const
+# [Generated From Compiler]
+execute if score @s LoseTime_Crazy_Crafter_12 matches 1 run return run scoreboard players operation Crazy_Crafter_12 PlayerLifeMinutes -= #LIFE_LOSS_TASK_FAIL_MINUTES const
 
 

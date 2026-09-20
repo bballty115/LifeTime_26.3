@@ -1,69 +1,100 @@
 [1]GO TO SPACE: Reach Y-level 250
 [2]RAIL SOMEONE: Get a kill with a TNT Minecart
 [3]GROUP VOTE: Everyone report to spawn and decide as a group the winner of the task. Must be unanimous.
-[4]BUILDING COMPETITION: Everyone has 30 minutes to build the nicest build near the spawn area which will be decided through a vote.
+[4]BUILDING COMPETITION: Everyone has 20 minutes to build near the spawn area, and the favorite will be decided through a vote.
 [5]SPOOKY: Jumpscare a player on the server
-[6]ARMORLESS: No wearing armor or shields until you die. If you do, you fail. Last one standing Wins. If the session ends with multiple survivors, person with least time left wins. If that's a tie, no one wins.
-[7]WATER BUCKET GAMBLE: Thirty minutes to pull off a water bucket clutch. Person with the second highest clutch wins. Dying eliminates you from winning. If only one person succeeds they win.
-[8]WOLF PACK: Befriend 5 new wolves
-[9]RANDOM BLOCK COLLECTOR: Have your entire inventory, minus your hotbar, filled with a full stack of different blocks.
-[10]COMEDY: Make 3 people laugh
-[11]GONE FISHIN’: You must fish up 5 enchantment books. If you get a mending book you instantly win.
-[12]IT'S A TRAP: Get a trap kill on another player
-[13]PORKY PILGRIMAGE: Ride a pig into spawn
-[14]LEVEL BEYOND: Reach level 20. If the session ends, whoever has the highest level wins.
-[15]DEFEAT THE DRAGON: End Portal will be added into spawn in creative mode and be opened. Whoever gets the final blow on the dragon wins.
-[16]POTION BREWER: Brew 5 different potions with different effects (i.e. no just making the same potion with differing lasting times/splash potions)
-[17]WARDEN HOARDIN: Spawn in and bring a warden to the surface on your own
-[18]BLAZING 8S: Tyler’s nightmare. Win 5 games first lmao.
-[19]TAG: Someone is randomized as it. They must punch someone to make them it. Whoever is it after 5 minutes loses. No punch backs allowed. Then someone new is randomized as it. Last person standing wins.
-[20]PIT JR.: Create a 3x3 pit leading straight from above ground to bedrock to honor the pit.
-[21]SURPASS THE ROOF: Be the first to reach the nether roof. If someone has already been there then reroll the task.
-[22]PRETTY LITTLE LIARS: Speak and act only in lies. If you tell the truth you fail. Last one standing wins.
-[23]MURDER!!!: Get 2 player kills on different people!
-[24]TARGET LIFE MINI: Someone random will be decided as target at the start of this task. Anyone can kill them. Whoever kills them becomes the new target. After an hour or at the end of the session whoever is it wins. The target must be above ground in the overworld AT ALL TIMES! Failure to do so is an automatic fail and reroll of who is it.
-[25]AMERICAN SNIPER: Get a kill with a bow, crossbow, trident, or any other ranged means of attack.
-[26]WITHER OR NOT: Get a fresh new wither skull from a wither skeleton first
-[27]JOEY CHESTNUT: Eat 15 different edible minecraft items.
-[28]MAKE LOVE NOT WAR: Breed 5 different animals
-[29]RANDOM 1V1ING: Win against 3 different people in a 1 v 1 challenge you both agree on. First person to win 3 wins it all. If there are not at least 4 people left then reroll.
-[30]FLY FLY AWAY: Build a flying machine to go from one side of the map to the other.
-[31]CLEAN HANDS: No killing any players or mobs. If you kill any or die you fail this task.
-[32]LYRICAL LINGUIST: Choose a popular song. Sneak in 3 different lyrics from the song in conversations with 3 different people. If you get called out on the song you fail.
-[33]BUILDING CONNECTIONS: Once you have a base, connect your base to spawn and connect it to a base of one other player. You cannot connect it to a player you share a base with.
-[34]ACHIEVEMENT HUNTER: Get 5 new achievements complete.
-[35]DREAM LUCK: Get a stack of ender pearls through Piglin Trades or killing endermen.
-[36]FLOWER POWER: Collect 9 different flowers and gift them into someone’s inventory
-[37]UNCONTROLLABLE: Make your W your left key, D your forward key, S your right key, and A your back key. Keep those controls as long as you can. If you die with these controls you lose.
-[38]KILLER OF THE NIGHT: Kill 50 aggressive mobs first
-[39]ON THE VERGE: Find a way to get yourself to ½ a heart in just one instance of damage (i.e. one tick of damage so suffocating and drowning would not count)
-[40]HOLD YOUR BREATH: All players must meet at a body of water. Everyone will go underwater at the same time. Last one to go above water wins. If you die underwater you lose.
-[41]A HORSE’S JOURNEY: Bring a horse from the overworld to a nether fortress and a bastion
-[42]GOING FOR GOLD: Get a full set of gold armor and tools and put them on an armor stand and in item frames.
-[43]I SEE YOU: Get a spyglass and look at every alive player through it
-[44]NEW STRIDES: Bring a strider to the overworld
-[45]MUSIC MAN: Get a brand new disc (ones you already have do not count) and play it in a jukebox for two other players.
-[46]BUCKETS O’ PLENTY: Have 4 buckets each filled with a unique item. (Empty buckets do not count)
-[47]MAPPED OUT: Get a map of the entire world within the border and display it at your base
-[48]STATISTICS BET: If this is the first session reroll and save for a future session. Everyone come to spawn and stand in a circle. A random player will be chosen and get to say a statistic of their choice (any death stat is not allowed). Whoever has the lowest of that fails the challenge. We then continue clockwise to the next player who chooses a new stat. Continue until one player remains. If there is a tie for last place, the player who made the stat choice chooses a new comparison for those in a tie.
-[49]BANGER: Create fireworks and shoot them out of a crossbow to kill another player.
-[50]UNBEELIEVABLE: Find a bee and nametag it Dinnerbone to see it flip upside down. Then do the same to two other mobs of your choice.
-[51]A SMASHING ACT: go to https://smashurandompicker.web.app/ and get a random smash character. Everyone must then meet at spawn. Everyone will take turns acting as their character and based on player vote whoever gets the best performance wins.  You are allowed one reroll of character but must commit to reroll.
-[52]GATHER THE ANCIENTS: Find 2 pieces of ancient debris in the nether (you do not need to mine them)
-[53]GHASTLY BOATS: Get a ghast to get into a boat. (Yes it is possible unless the internet lied to me)
-[54]DECONTAMINATION: Find a zombie villager and convert it back to a normal villager.
-[55]RAINBOW ENJOYER: Build an accurate rainbow (aka doesn’t look like shit).
-[56]CAREFUL SPEAKING: You can no longer say the direct name of any minecraft item/block/mob/biome. If you say any, you fail the challenge. No being silent either, if someone talks to you, you must talk back.
-[57]FOUR CORNERS RACE: Everyone gets 10 minutes to prepare and then meet at spawn. Whoever runs to each corner of the map first wins!
-[58]MINE DIIIIIIIIIIIIAMONDS: Find and mine 8 diamond ore
-[59]LOONEY TUNES MOMENT: Drop an anvil on top of someone’s head to kill them
-[60]TOXIC GAMER: Poison 3 different players through any means.
-[61]DRIPPED OUT: Wear a full set of trimmed armor
-[62]MUST HAVE BEEN THE WIND: Knock someone off at least a 5 block high fall with a wind charge
-[63]TRIALS AND TRIBULATIONS: Complete 2 trials in a trial chamber in a row without dying
-[64]SAY IT BACK: Choose a phrase, get 3 people to say it without directly telling them too.
-[65]LOW TIER GOD: You should kill yourself now. First one wins.
-[66]THE WORST CRIME: Kill a frog
-[67]YOU DECIDE: One person at random is chosen, they choose the next task from the current list
-[68]HEAVY ODDS: Get a heavy core from trial chambers
-[69]APOCALYPSE NOW: Someone will be randomly chosen as the first infected. Whoever is infected will now be similar to a red life. Spread the infection to others by killing them. Longest to survive the apocalypse wins. To avoid camping hell, all non-infected must stay above ground and in overworld at all times.
+[6]WATER BUCKET GAMBLE: 10 minutes to pull off a water bucket clutch. You get one try. The person with the second highest clutch wins. Final announcement for height occurs at the end.
+[7]WOLF PACK: Befriend 5 new wolves.
+[8]RANDOM ITEM COLLECTOR: Have your entire inventory, minus your hotbar, filled with a full stack of unique stackable blocks / stackable items.
+[9]COMEDY: Make 3 people laugh.
+[10]GONE FISHIN’: You must fish up 3 enchantment books. If you get a mending book you instantly win.
+[11]IT'S A TRAP: Get a trap kill on another player. All players may trap regardless of life total.
+[12]PORKY PILGRIMAGE: Ride a pig into spawn.
+[13]EYES OUT: End Portal will be added into spawn in creative mode and be opened. Whoever gets the “Free the End” achievement wins.
+[14]POTION BREWER: Brew 5 different potions with different effects (i.e. no just making the same potion with differing lasting times/splash potions)
+[15]WARDEN HOARDIN: Spawn in and bring a warden to the surface on your own.
+[16]GOOBER DASHING: Tyler’s dream. Win 2 games first lmao.
+[17]TAG: Everyone must be above ground in the Overworld. Someone is randomized as it. They must punch someone to make them it. Whoever is it after 3 minutes loses. No punch backs allowed. Then someone new is randomized as it. Last person standing wins.
+[18]PIT JR.: Create a 3x3 pit leading straight from above ground to bedrock to honor the pit.
+[19]SURPASS THE ROOF: Be the first to reach the nether roof. If someone has already been there then reroll the task.
+[20]PRETTY LITTLE LIARS: Speak and act only in lies. If you tell the truth you fail. Last one standing wins.
+[21]MURDER!!!: Get 2 player kills on different people! All players are allowed to kill regardless of life total.
+[22]TARGET LIFE MINI: Someone random will be decided as target at the start of this task. Anyone can kill them. Whoever kills them becomes the new target. After 25 minutes or at the end of the session whoever is it wins. The target must be above ground in the overworld AT ALL TIMES! Failure to do so is an automatic fail and reroll of who is it.
+[23]AMERICAN SNIPER: Get a player kill with a bow, crossbow, trident, or any other ranged means of attack. All players may kill regardless of life total.
+[24]WITHER OR NOT: Get a fresh new wither skull from a wither skeleton.
+[25]JOEY CHESTNUT: Eat 15 different edible minecraft items.
+[26]MAKE LOVE NOT WAR: Breed 5 different animals.
+[27]RANDOM 1V1ING: Win against 3 different people in a 1 v 1 challenge you both agree on. First person to win 3 wins it all. If there are not at least 4 people left then reroll.
+[28]FLY FLY AWAY: Build a flying machine to go from one side of the map to the other.
+[29]LYRICAL LINGUIST: Choose a popular song. Sneak in 3 different lyrics from the song in conversations with 3 different people. If you get called out on the song you fail.
+[30]BUILDING CONNECTIONS: Once you have a base, connect your base to a base of one other player. You cannot connect it to a player you share a base with, and can’t connect to another player’s connection.
+[31]ACHIEVEMENT HUNTER: Get 5 new achievements complete.
+[32]DREAM LUCK: Get a new stack of ender pearls through Piglin Trades or killing endermen.
+[33]FLOWER POWER: Collect 7 different flowers and gift them into someone’s inventory.
+[34]UNCONTROLLABLE: Make your W your left key, D your forward key, S your right key, and A your back key. Keep those controls as long as you can. If you die with these controls you lose.
+[35]KILLER OF THE NIGHT: Kill 25 aggressive mobs first.
+[36]ON THE VERGE: Find a way to get yourself to ½ a heart from full health in just one instance of damage (i.e. one tick of damage so suffocating and drowning would not count)
+[37]HOLD YOUR BREATH: All players must meet at the same body of water. Everyone will go underwater at the same time. You fail as soon as you come into contact with an air block. If you die underwater you lose.
+[38]A HORSE’S JOURNEY: Bring a horse from the overworld to a nether fortress and a bastion.
+[39]GOING FOR GOLD: Get a full set of gold armor and tools and put them on an armor stand and in item frames.
+[40]I SEE YOU: Get a spyglass and look at every alive player through it
+[41]NEW STRIDES: Bring a strider to the overworld
+[42]MUSIC MAN: Get a brand new disc (ones you already have do not count) and play it in a jukebox for two other players to hear.
+[43]BUCKETS O’ PLENTY: Get 4 new buckets each filled with a unique item. (Empty buckets do not count)
+[44]MAPPED OUT: Get a map of the entire world within the border and display it at your base
+[45]STATISTICS BET: If this is the first session reroll and save for a future session. Everyone come to spawn and stand in a circle. A random player will be chosen and get to say a statistic of their choice (any death stat is not allowed). Whoever has the lowest of that fails the challenge. We then continue clockwise to the next player who chooses a new stat. Continue until one player remains. If there is a tie for last place, the player who made the stat choice chooses a new comparison for those in a tie.
+[46]BANGER: Create fireworks and shoot them out of a crossbow to kill another player. All players may do this regardless of life total.
+[47]UNBEELIEVABLE: Find a bee and nametag it Dinnerbone to see it flip upside down. Then do the same to two other mobs of your choice.
+[48]GATHER THE ANCIENTS: Find 2 pieces of ancient debris in the nether (you do not need to mine them)
+[49]GHASTLY BOATS: Get a ghast to get into a boat. (Yes it is possible unless the internet lied to me)
+[50]DECONTAMINATION: Find a zombie villager and convert it back to a normal villager.
+[51]RAINBOW ENJOYER: Build an accurate rainbow (aka doesn’t look like shit).
+[52]CAREFUL SPEAKING: You can no longer say the direct name of any minecraft item/block/mob/biome. If you say any, you fail the challenge. No being silent either, if someone talks to you, you must talk back.
+[53]FOUR CORNERS RACE: Everyone gets 10 minutes to prepare and then meet at spawn. Whoever makes it to each corner of the map first wins!
+[54]MINE DIIIIIIIIIIIIAMONDS: Find and mine 8 diamond ore
+[55]LOONEY TUNES MOMENT: Drop a block on top of someone’s head to kill them
+[56]TOXIC GAMER: Poison 3 different players through any means.
+[57]DRIPPED OUT: Wear a full set of trimmed armor minus helmet
+[58]MUST HAVE BEEN THE WIND: Knock someone off at least a 5 block high fall with a wind charge
+[59]TRIALS AND TRIBULATIONS: Complete 2 trials in a trial chamber in a row without dying
+[60]SAY IT BACK: Choose a phrase, get 3 people to say it without directly telling them too.
+[61]LOW TIER GOD: You should kill yourself now. First one wins.
+[62]AXE-KILL-LOT-LE: Kill an axolotl with an axe.
+[63]YOU DECIDE: One person at random is chosen, they choose the next task from the current list. Repeats available.
+[64]TO DECIDE: One person at random is chosen, they choose the next task from the current list. Repeats available.
+[65]HEAVY ODDS: Get a new heavy core from trial chambers
+[66]APOCALYPSE NOW: Someone will be randomly chosen as the first infected. Whoever is infected will now be similar to a red life. Spread the infection to others by killing them. Longest to survive the apocalypse wins. To avoid camping hell, all non-infected must stay above ground and in overworld at all times with direct access to sunlight.
+[67]GO TIME: You have two minutes to get to spawn. Afterwards, a random player at spawn is chosen as the winner.
+[68]MECHANISM: Everyone meets at spawn. You have 20 minutes to build a contraption that completes a task. That task is up to you. Vote for your favorite, most votes wins.
+[69]BOAT RACE JR: Everyone meets up and we have 20 minutes to build a single boat race course, and then we race. Whoever wins the race is the winner.
+[70]PARK-OUR: Everyone meets up somewhere in the world and we have 20 minutes to build a single parkour course to reach a block 50 blocks in the air, and then we compete to see who can reach it the fastest. The best time or highest distance wins, everyone gets one attempt.
+[71]A-MAZE-ING RACE: Everyone meets up somewhere in the world and we have 20 minutes to build a single maze, and then we compete to see who can reach the end first.
+[72]HIGH DIVE: Everyone meets at spawn, and we fill a 1x1 hole with water. We determine a random player order. In order, each player can jump into the water at a higher elevation than the last succeeding player. If you miss, you are out. You can also opt out. Last player left wins! [NOTE: Your jumping point must be 5 BLOCKS AWAY minimum]
+[73]WOOD WORKING: Get 3 new stacks of any logs!
+[74]LAST PERSON FLOATING: We have 10 minutes to prepare. Afterwards, we all meet at spawn and build a 7x7 platform 20 blocks up. Once your feet leave the platform, you fail the challenge. You can not directly attack players. You can not directly break the platform.
+[75]KRAKATOA: Launch an unsuspecting player with a sulfur geyser.
+[76]SULFUR SHOWDOWN: We meet up somewhere in the world and have 20 minutes to build a stadium. Each participating player must place a goal around the edge of the stadium. Your goal must be at least 4 blocks wide and 3 blocks tall. A bouncy/low friction sulfur cube will be placed in the arena. If the cube ends up in your goal you’re out. Last player in wins.
+[77]FULL POCKETS: You have 5 minutes to prepare. You can approach another player and guess an item they have in their inventory (armor doesn’t count). If they have the item they are out. If you are wrong you are out. Go until only one remains. [NOTE: You must have 9 unique item slots minimum in your inventory at all times]
+[78]CHAOS GOLF: Using a sulfur cube, use a non-weapon to transport a sulfur cube to a designated point agreed upon from spawn, whoever uses the least amount of hits to accomplish this wins. No using buckets to transport the sulfur cube.
+[79]NO CONTACT: Move an item 50 blocks horizontally without picking it up.
+[80]MEAT SKEWER: One shot something with a spear.
+[81]COPPER GOLEM ROULETTE: Name your chosen copper golem. We fully fill a copper chest, with the last slot containing a unique item. The golem that grabs that item wins. Sabotage that does not harm the golems is allowed, and no putting items into the copper chest once the roulette begins.
+[82]UNEASIER ALLIANCE: Bring a fully grown Happy Ghast back to the nether
+[83]HOW DID WE GET HERE MINI: Have “Breath of the Nautilus” and “Trial Omen” at the same time
+[84]THE FLOOR IS LAVA: Starting in one minute, you cannot stand on naturally generated terrain. Last one to fail wins.
+[85]MUSICAL CUSHIONS: We all meet up at spawn and set up enough cushions for the remaining players minus one. A spectator streams some sort of music in the discord server, and while it’s playing, players move around the cushions. When the music stops, everyone must find and sit on a cushion. Last player to not be on a cushion fails. Remove one cushion and repeat until one player remains. [Note: Players who have not failed can not actively attack players]
+[86]PAIL GUARDIAN: Bring a guardian to the pale garden.
+[87]PALE GUARDIAN: Bring a creaking to the ocean monument.
+[88]SULFUR CURLING: We all meet up at spawn and pick a starting point. Everyone will have an attempt to hit a sulfur cube with stone in it as far as possible. Furthest cube wins. Players can’t interfere with the cubes, but cubes can move other cubes. Player order is random.
+[89]MUSICAL MAYHEM: Everything you speak must be in song. You fail if you’re called out. You must interact with those who interact with you.
+[90]THIS IS A STORY OF A MAN NAMED STEVE: You must narrate everything you do. You fail if you’re called out. You must interact with those who interact with you.
+[91]THIRD PERSON: You must speak in third person. You must play in third person. Failure to do so means you fail the task. You also fail if you die.
+[92]PING: Every minute, you must type something in chat. You are out if you fail to do so. Use the session timer to gauge this.
+[93]ADVENTURE AWAITS: Starting now, go to 3 naturally generated structures. You must say when you visit a structure in chat.
+[94]CAKE IS A LIE: Make a cake and eat a slice.
+[95]TERMINAL VELOCITY: Launch yourself at least 30 blocks in a minecart. You must be in the air for the launch.
+[96]SO, NO HEAD?: Shave a snow golem of its head.
+[97]BED WARS CRIME: Bed bomb anything to death.
+[98]SCAVENGER HUNT: After 2 minutes, everyone announces an item or block in chat. The first player to gather over half of these items wins.
+[99]NO HOES?: Break a diamond hoe from full durability.
+[100]TASK 100: [PLEASE WAIT BEFORE STARTING THIS] First player to count from 1 to 100 in global chat wins. If it’s not continuous, you fail. Each number must be a separate message. We agree upon a start time.
