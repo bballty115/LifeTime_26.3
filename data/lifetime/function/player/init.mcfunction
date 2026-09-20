@@ -11,10 +11,16 @@ recipe take @s minecraft:enchanting_table
 recipe take @s minecraft:bookshelf
 recipe take @s minecraft:tnt
 
+# Clear admin status from this player first
+scoreboard players reset @s PlayerAdmin
+
 # Set admin status, if applicable
 #!c scoreboard players set @s[name="ADMINUSERNAME"] PlayerAdmin 1
 # [Generated From Compiler]
 scoreboard players set @s[name="bballty115"] PlayerAdmin 1
+
+# Clear active player from this player first
+scoreboard players reset @s ActivePlayer
 
 # Set active player status, if applicable
 #!c scoreboard players set @s[name="USERNAME"] ActivePlayer 1

@@ -180,7 +180,7 @@ data modify storage lifetime:data tasks.all.84 set value {name: "THE FLOOR IS LA
 # [Generated From Compiler]
 data modify storage lifetime:data tasks.all.85 set value {name: "MUSICAL CUSHIONS", description: "We all meet up at spawn and set up enough cushions for the remaining players minus one. A spectator streams some sort of music in the discord server, and while it’s playing, players move around the cushions. When the music stops, everyone must find and sit on a cushion. Last player to not be on a cushion fails. Remove one cushion and repeat until one player remains. [Note: Players who have not failed can not actively attack players]"}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.86 set value {name: "PALE GUARDIAN", description: "Bring a guardian to the pale garden."}
+data modify storage lifetime:data tasks.all.86 set value {name: "PAIL GUARDIAN", description: "Bring a guardian to the pale garden."}
 # [Generated From Compiler]
 data modify storage lifetime:data tasks.all.87 set value {name: "PALE GUARDIAN", description: "Bring a creaking to the ocean monument."}
 # [Generated From Compiler]
@@ -188,7 +188,7 @@ data modify storage lifetime:data tasks.all.88 set value {name: "SULFUR CURLING"
 # [Generated From Compiler]
 data modify storage lifetime:data tasks.all.89 set value {name: "MUSICAL MAYHEM", description: "Everything you speak must be in song. You fail if you’re called out. You must interact with those who interact with you."}
 # [Generated From Compiler]
-data modify storage lifetime:data tasks.all.90 set value {name: "STEVE WOKE UP IN A DREARY OFFICE", description: "You must narrate everything you do. You fail if you’re called out. You must interact with those who interact with you."}
+data modify storage lifetime:data tasks.all.90 set value {name: "THIS IS A STORY OF A MAN NAMED STEVE", description: "You must narrate everything you do. You fail if you’re called out. You must interact with those who interact with you."}
 # [Generated From Compiler]
 data modify storage lifetime:data tasks.all.91 set value {name: "THIRD PERSON", description: "You must speak in third person. You must play in third person. Failure to do so means you fail the task. You also fail if you die."}
 # [Generated From Compiler]
