@@ -9,7 +9,8 @@ function lifetime:task/archive_current
 function lifetime:task/manager/action/clear_current_reset_player_task_status
 
 # Store if enough time remains in session for a new task
-execute store result score #temp temp if score #session SessionMinutes >= #TASK_MIN_TIME_TO_SCHEDULE_MINUTES const
+scoreboard players set #temp temp 0
+execute if score #session SessionMinutes >= #TASK_MIN_TIME_TO_SCHEDULE_MINUTES const if score #session SessionHours matches 1.. run scoreboard players set #temp temp 1
 
 # Schedule another task if time permits [7]
 execute if score #temp temp matches 1 run function lifetime:task/manager/action/schedule_new
