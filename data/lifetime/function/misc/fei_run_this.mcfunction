@@ -10,9 +10,5 @@ scoreboard players remove Jbloxx PlayerLifeHours 4
 # Subtract 92 minutes from Cameron
 scoreboard players remove Crazy_Crafter_12 PlayerLifeMinutes 92
 
-# Unfreeze game
-tick unfreeze
-
 # Start session and de-op Fei
 function lifetime:session/start
-deop FireFei

@@ -2,6 +2,6 @@
 ## Test Fei permission level
 ##
 
-tick freeze
+tellraw @a "Fei ran this function successfully, running test function now to ensure proper permissions!"
 
-tellraw @a "Fei ran this function successfully, game frozen!"
+function lifetime:misc/test
